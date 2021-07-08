@@ -3,6 +3,12 @@ services:
   uvicorn-gunicorn:
     build:
       context: ./docker-images/
-      dockerfile: ./pypy3.7-slim-uvicorn-gunicorn.dockerfile
+      dockerfile: ./pypy-uvicorn-gunicorn-3.7-slim.dockerfile
     ports:
       - "80:5000"
+  fastapi:
+    build:
+      context: ./docker-images/
+      dockerfile: ./pypy-fastapi-3.7-slim.dockerfile
+    ports:
+      - "80:5001"

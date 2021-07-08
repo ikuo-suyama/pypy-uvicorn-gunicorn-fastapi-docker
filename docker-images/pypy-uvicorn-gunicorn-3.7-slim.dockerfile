@@ -14,7 +14,7 @@ COPY ./gunicorn_conf.py /gunicorn_conf.py
 COPY ./start-reload.sh /start-reload.sh
 RUN chmod +x /start-reload.sh
 
-COPY ./app /app
+COPY ./uvicorn-gunicorn-app /app
 WORKDIR /app/
 
 ENV PYTHONPATH=/app
