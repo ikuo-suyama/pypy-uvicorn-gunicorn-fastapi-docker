@@ -1,0 +1,8 @@
+version: "3"
+services:
+  uvicorn-gunicorn:
+    build:
+      context: ./docker-images/
+      dockerfile: ./pypy3.7-slim-uvicorn-gunicorn.dockerfile
+    ports:
+      - "80:5000"
