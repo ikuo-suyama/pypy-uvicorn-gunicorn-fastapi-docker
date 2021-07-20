@@ -4,4 +4,4 @@ LABEL maintainer="Ikuo Suyama"
 
 RUN pip install --no-cache-dir fastapi
 
-COPY ./fastapi-app /app
+COPY ./app /app
