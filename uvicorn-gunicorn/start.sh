@@ -1,4 +1,9 @@
 #! /usr/bin/env sh
+# 
+# Copyright (c) 2019 Sebastián Ramírez
+# 
+# This software is released under the MIT.
+# see https://github.com/tiangolo/uvicorn-gunicorn-docker/blob/master/LICENSE
 set -e
 
 if [ -f /app/app/main.py ]; then

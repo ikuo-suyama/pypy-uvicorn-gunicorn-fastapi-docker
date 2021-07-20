@@ -1,3 +1,8 @@
+# 
+# Copyright (c) 2019 Sebastián Ramírez
+# 
+# This software is released under the MIT.
+# see https://github.com/tiangolo/uvicorn-gunicorn-docker/blob/master/LICENSE
 import json
 import multiprocessing
 import os

@@ -1,3 +1,8 @@
+# 
+# Copyright (c) 2019 Sebastián Ramírez
+# 
+# This software is released under the MIT.
+# see https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/LICENSE
 import sys
 
 from fastapi import FastAPI
